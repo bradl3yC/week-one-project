@@ -6,19 +6,42 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  width: 1024px;
+  margin: 0 auto;
+  background-color: light-grey;
 }
 
-#first-product-row{
-
+.first-product-row {
+  padding: 0;
+  margin: 1;
+  list-style: none;
+  display: flex;
 }
-#first-product-row img{
+
+.first-product-row img {
   height: 300px;
   flex-direction: row;
-  align-items: stretch;
   justify-content: space-around;
+  margin: 10px;
 }
 
-#second-product-row img{
+.endless-possibilities {
+  background-image: url("images/optimized/product-1.jpg");
+  background-size: cover;
+  width: 60%;
+  position: relative;
+}
+
+.endless-possibilities p {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.image2 { width: 10%; }
+.image3 { width: 10%; }
+
+#second-product-row img {
   height: 100px;
   flex-direction: row;
   align-items: stretch;
