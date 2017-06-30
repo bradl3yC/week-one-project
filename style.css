@@ -8,23 +8,29 @@ body {
   flex-direction: column;
   width: 1024px;
   margin: 0 auto;
-  background-color: light-grey;
+  background-color: #F2F1E8;
 }
 
 .first-product-row {
   padding: 0;
-  margin: 1;
-  list-style: none;
   display: flex;
-}
-
-.first-product-row img {
   height: 300px;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 10px;
+  margin-bottom: 1em;
 }
 
+.first-product-row :not(:last-child){
+  margin-right: 10px;
+}
+
+/*.second-product-row:not(:last-of-type) div {
+  margin-right: 10px;
+}*/
+
+.second-product-row {
+  padding: 0;
+  display: flex;
+  height: 200px;
+}
 .endless-possibilities {
   background-image: url("images/optimized/product-1.jpg");
   background-size: cover;
@@ -33,17 +39,99 @@ body {
 }
 
 .endless-possibilities p {
-  color: white;
+  background-color: #2b2f30;
+  color: #F2F1E8;
   position: absolute;
   bottom: 0px;
+  padding: 1em;
 }
 
-.image2 { width: 10%; }
-.image3 { width: 10%; }
+.sets {
+  background-image: url("images/optimized/product-2.jpg");
+  background-size: cover;
+  width: 20%;
+  position: relative;
+}
 
-#second-product-row img {
-  height: 100px;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: space-around;
+.sets p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+.textures {
+  background-image: url("images/optimized/product-3.jpg");
+  background-size: cover;
+  width: 20%;
+  position: relative;
+}
+
+.textures p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+.tea-time {
+  background-image: url("images/optimized/product-4.jpg");
+  background-size: cover;
+  width: 20%;
+  position: relative;
+}
+
+.tea-time p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+.jars-and-containers {
+  background-image: url("images/optimized/product-5.jpg");
+  background-size: cover;
+  width: 20%;
+  position: relative;
+}
+
+.jars-and-containers p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+.wasabi-and-saki {
+  background-image: url("images/optimized/product-6.jpg");
+  background-size: cover;
+  width: 40%;
+  position: relative;
+}
+
+.wasabi-and-saki p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+.sippin-on-sunshine {
+  background-image: url("images/optimized/product-7.jpg");
+  background-size: cover;
+  width: 20%;
+  position: relative;
+}
+
+.sippin-on-sunshine p {
+  background-color: #2b2f30;
+  color: #F2F1E8;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
