@@ -11,6 +11,31 @@ body {
   background-color: #F2F1E8;
 }
 
+.site-header {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 4em;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #E4E2DD;
+}
+
+.site-navigation {
+  width: 100%;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: .5em 2em;
+}
+
+.logo{
+  width: 40px;
+  height: auto;
+  position: relative;
+}
+
 .first-product-row {
   padding: 0;
   display: flex;
