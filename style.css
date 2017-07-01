@@ -6,7 +6,6 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  width: 1024px;
   margin: 0 auto;
   background-color: #F2F1E8;
 }
@@ -15,25 +14,30 @@ body {
   width: inherit;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 4em;
   background-color: #FFFFFF;
   border-bottom: 2px solid #E4E2DD;
 }
 
 .site-navigation {
-  width: 100%;
+  display: flex;
+}
+
+.site-navigation a {
+  flex-direction: row;
+  display: block;
   color: #2B2F26;
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
   text-transform: uppercase;
-  padding: .5em 2em;
+  padding-right: 20px;
 }
 
-.logo{
+.logo {
   width: 40px;
-  height: auto;
-  position: relative;
+  padding: .7em;
 }
 
 .first-product-row {
@@ -43,11 +47,11 @@ body {
   margin-bottom: 10px;
 }
 
-.first-product-row :not(:last-child){
+.first-product-row :not(:last-child) {
   margin-right: 10px;
 }
 
-.second-product-row :not(:last-child){
+.second-product-row :not(:last-child) {
   margin-right: 10px;
 }
 
@@ -159,4 +163,31 @@ body {
   position: absolute;
   bottom: 0px;
   padding: 1em;
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-header h1 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.article-header h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.site-footer {
+  font-family: 'Merriweather', sans-serif;
+  background-color: #2b2f30;
+  font-size: 1.3em;
+  padding: 1em;
+  color: #F2F1E8;
 }
