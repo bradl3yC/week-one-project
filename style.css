@@ -25,6 +25,17 @@ body {
   background-color: #F2F1E8;
 }
 
+.wrapper {
+  margin: 0 10em 0 10em;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.wrapper h2 {
+  font-weight: normal;
+}
+
 .site-header {
   width: inherit;
   display: flex;
@@ -199,6 +210,53 @@ body {
   bottom: 0px;
   padding: 1em;
 }
+
+.mid {
+  margin: 2em 0 2em 0;
+  padding: 0;
+  display: flex;
+  height: 20em;
+}
+
+.room-to-grow {
+  background-image: url("images/optimized/background-3.jpg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.room-to-grow p {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 4em;
+  color: white;
+  position: absolute;
+  padding: 0;
+  bottom: 1em;
+  left: 5em;
+}
+
+.birdhouse {
+  margin-top: 5em;
+}
+
+.birdhouse img {
+  float: left;
+  width: 20%;
+  height: auto;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.birdhouse p {
+  flex-direction: column;
+}
+
+.birdhouse blockquote {
+  border-left: 2px solid #968772;
+  margin: 1.5em 6em 1em 0;
+  padding: 0em 2em;
+}
+
 
 .article-header {
   display: flex;
