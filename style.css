@@ -22,6 +22,14 @@ body {
   line-height: 2em;
 }
 
+.wrapper a {
+  color: #968772;
+}
+
+.wrapper a:hover {
+  color: #967343;
+}
+
 .wrapper h2 {
   font-weight: normal;
   flex-direction: column;
